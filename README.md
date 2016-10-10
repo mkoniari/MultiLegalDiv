@@ -4,9 +4,11 @@ This page is a companion for the WISE 2016 paper on [Multi-dimension Diversifica
 
 ## Dataset
 * [CourtListener](https://www.courtlistener.com/api/bulk-info/)
+
 > Our corpus contains 63,742 precedential legal cases from the [Supreme Court of the United States](http://supremecourt.gov/). The cases were originally downloaded from [CourtListener](https://www.courtlistener.com/). The legal corpus contains all cases from the Supreme Court of the United States, covering more than two centuries of legal history, spanning from 1754 up to 2015. We extracted from the cases text all the necessary information for our feature selection framework e.g. relationships to other documents, date of Judgment.  RESTful API detailed instruction can be found  [here](https://www.courtlistener.com/api/rest-info/).
 
 * [Supreme Court Database](http://scdb.wustl.edu/data.php?s=6)
+
 > Since our corpus was initially unclassified, we acquired topical taxonomies from the Supreme Court Database using commonly shared unique identification variable SCDB Case ID. Topical taxonomies within Supreme Court Database are the outcome of a manual analysis and interpretation of the legal provisions considered in each case. An introduction to the Online Code Book can be found [here](http://scdb.wustl.edu/documentation.php?var=intro), while download and use instructions can be found [here](http://scdb.wustl.edu/data.php?s=3).
 
 
@@ -16,11 +18,15 @@ West Law Digest Topics  is a taxonomy of identifying points of law from reported
 
 1. [WikiPedia entry](https://en.wikipedia.org/wiki/West_American_Digest_System)
 2. [PDF list](https://info.legalsolutions.thomsonreuters.com/documentation/westlaw/wlawdoc/wlres/keynmb06.pdf) 
+
  > we downloaded this list from WestLaw, process it and acquired a textual representation of it.
+
 3. [Original Topics/queries](https://github.com/mkoniari/MultiLegalDiv/blob/master/westlaw.txt)
-> Each topic was issued as candidate query to our retrieval system. Outlier queries, whether too specific/rare or too general, where removed using the interquartile range, below or above values Q1 and Q3, sequentially in terms of number of hits in the result set and score distribution for the hits, demanding in parallel a minimum cover of min|N| results.
+
+ > Each topic was issued as candidate query to our retrieval system. Outlier queries, whether too specific/rare or too general, where removed using the interquartile range, below or above values Q1 and Q3, sequentially in terms of number of hits in the result set and score distribution for the hits, demanding in parallel a minimum cover of min|N| results.
+
 4. [Used Topics/queries](https://github.com/mkoniari/MultiLegalDiv/blob/master/QUERIES.txt) 
-> Our final list of user queries. In total, we kept 330 queries.
+ > Our final list of user queries. In total, we kept 330 queries.
 
 ## Query assessments and ground-truth.
 
