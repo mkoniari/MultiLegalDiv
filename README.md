@@ -40,8 +40,7 @@ Our stop word list can be found [here](https://github.com/mkoniari/MultiLegalDiv
 
 ## Citing 
 If you use queries and relevance assessments utilized in this work in your research, please cite:
-
-@inproceedings{DBLP:conf/wise/KoniarisAV16,
+    @inproceedings{DBLP:conf/wise/KoniarisAV16,
   author    = {Marios Koniaris and
                Ioannis Anagnostopoulos and
                Yannis Vassiliou},
