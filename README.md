@@ -39,21 +39,17 @@ on the topic/ document distribution we can infer whether a document is relevant 
 Our stop word list can be found [here](https://github.com/mkoniari/MultiLegalDiv/blob/master/stopwords.en)
 
 ## Citing 
+
 If you use queries and relevance assessments utilized in this work in your research, please cite:
-    @inproceedings{DBLP:conf/wise/KoniarisAV16,
-  author    = {Marios Koniaris and
-               Ioannis Anagnostopoulos and
-               Yannis Vassiliou},
-  title     = {Multi-dimension Diversification in Legal Information Retrieval},
-  booktitle = {Web Information Systems Engineering - {WISE} 2016 - 17th International
-               Conference, Shanghai, China, November 8-10, 2016, Proceedings, Part
-               {I}},
-  pages     = {174--189},
-  year      = {2016},
-  crossref  = {DBLP:conf/wise/2016-1},
-  url       = {http://dx.doi.org/10.1007/978-3-319-48740-3_12},
-  doi       = {10.1007/978-3-319-48740-3_12},
-  timestamp = {Wed, 02 Nov 2016 14:09:47 +0100},
-  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/wise/KoniarisAV16},
-  bibsource = {dblp computer science bibliography, http://dblp.org}
-}
+
+
+    @inproceedings{KoniarisAV16,
+    author="Koniaris, Marios and Anagnostopoulos, Ioannis and Vassiliou, Yannis",
+    title="Multi-dimension Diversification in Legal Information Retrieval",
+    bookTitle="Web Information Systems Engineering - {WISE} 2016 - 17th International Conference, Shanghai, China, November 8-10, 2016, Proceedings, Part I",
+    year="2016",
+    publisher="Springer International Publishing",    
+    pages="174--189",    
+    doi="10.1007/978-3-319-48740-3_12",
+    url="http://dx.doi.org/10.1007/978-3-319-48740-3_12"
+    }
